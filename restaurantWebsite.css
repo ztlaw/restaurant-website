@@ -1,0 +1,325 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1, h2{
+    font-family:'Noto Serif Display', 'sans-serif'
+}
+
+html{
+    scroll-behavior: smooth;
+}
+button{
+    background: rgba(255,134,0,255);
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+}
+span{
+    color: rgba(255,134,0,255);
+    font-weight: 700;
+}
+
+body {
+background-image: url(foodBackground.webp);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+background-position: -40px;
+
+}
+.marginFix{
+    margin: 0 7%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+main{
+    background-image: url(foodBackground2.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+}
+main > img{
+    float: left; 
+    width: 10%;
+}
+.header {
+    
+    float: left;
+    width: 90%;
+    
+}
+.header li{
+    float: left;
+    list-style: none;
+    margin-left: 5%;
+    
+}
+.header ul{
+    margin-left: 55%;
+    text-decoration: none;
+    margin-bottom: 2%;
+    
+}
+/* first section styles */
+.top{
+    margin-left: 10%;
+    width: 25%;
+    padding: 10% 0;
+    
+    
+
+}
+.top input{
+    margin: 5% auto 5%;
+    background: url(search.png), white;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 6%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    width: 60%;
+    height: 2em;
+}
+.top button{
+    height: 2em;
+    width: 90px;
+    margin: 0;
+}
+
+.top a{
+    margin-right: 5%;
+    
+}
+/* .magnifying{
+    width: 20px;
+   position: absolute;
+    margin-right: -500px;
+    margin-top: 20px;
+    border: 1px solid black; 
+}*/
+    
+
+/* .top form{
+    background-image: url('magnifying.png');
+    background-size: 10px;
+}
+     */
+
+main h1{
+    margin: 0;
+    font-size: 4em;
+}
+
+
+
+
+/* section 2 styles */
+.second{
+    /* add background here */
+    background-image: url(aboutbg.png);
+    background-size: cover;
+    
+    
+}
+
+.secondSection{
+    margin: 0 22%;
+    padding: 5% 5%;
+    padding-left: 15%;
+    
+}
+.secondSection h2{
+    font-size: 4em;
+    
+    margin: 0;
+}
+.secondSection p{
+    font-size: 125%;
+}
+.secondSection button{
+    margin: 0;
+    height: 2em;
+    
+
+}
+    
+
+    
+    
+
+
+/* section 3 styles */
+
+.sectionThree{
+    padding: 2%;
+    text-align: center;
+    list-style: none;
+    height: 50%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,222,222,1) 100%);
+}
+.sectionThree h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+.sectionThree ul{
+    list-style: none;
+    margin-top: 1%;
+    width: 100%;
+    
+    
+    
+}
+.sectionThree li{
+    display: inline;
+    padding: 0%;
+}
+.sectionThree .meal{
+    text-decoration: underline;
+    padding: 0 5%;
+    font-size: 125%;
+}
+.sectionThree .foodPhotos{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+/* WORK ON THIS WORK ON THIS WORK ON THIS */
+.scroll{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 13%;
+}
+/* .foodPhotos{
+    position: absolute;
+}
+a img{
+    position: relative;
+ } */
+
+.foodPhotos:hover{
+    filter: contrast(0.2);
+     
+}
+/* section 4 styles */
+.sectionFour{
+    text-align: center;
+    padding: 3% 0%;
+    background: url(coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionFour h1{
+    font-size: 3em;
+}
+.sectionFour .fa-solid{
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+}
+.phone span{
+    display: block;
+    padding: 1%;
+}
+.phone h3{
+    font-family:'Noto Serif Display', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    color:rgba(255,134,0,255);
+    margin-bottom: 1%;
+}
+
+.leftDate, .rightDate{
+    
+    float: left;
+    width: 50%;
+    font-size: 2em;
+    
+    
+}
+.leftDate span, .rightDate span{
+    font-size: 0.5em;
+    
+    margin-right: 17%;
+}
+.leftDate h4, .rightDate h4{
+   
+    margin-top: 1%;
+}
+.sectionFour img{
+   height: 50%;
+   width: 50%;
+   padding-top: 5%;
+  
+}
+
+
+/* section 5 styles */
+.testimonials{
+    text-align: center;
+    padding: 3% 20%;
+    margin-bottom: 2%;
+    background: rgb(224,222,222);
+    background: linear-gradient(90deg, rgba(224,222,222,1) 0%, rgba(255,255,255,1) 64%);
+   
+}
+.testimonials h1{
+    font-size: 3em;
+    margin: 1% auto 4%;
+}
+
+.testimonials h4{
+    font-size: 150%;
+    margin: 0;
+}
+.testimonials img{
+    width: 10%;
+    border-radius: 100px;
+    margin: 0;
+}
+.testimonials span{
+    display: block;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
