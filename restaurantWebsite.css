@@ -44,11 +44,12 @@ span{
 }
 
 body {
-background-image: url(/images/foodBackground.webp);
+background-image: url(/images/background-burger.jpg);
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 background-attachment: fixed;
-background-position: -40px;
+background-position: center;
+
 
 }
 .marginFix{
@@ -109,7 +110,8 @@ a:hover{
     margin-left: 5%;
     width: 30%;
     padding: 10% 0;
-    border: 1px solid black;
+   
+    margin-bottom: 8%;
 }
 
 
@@ -154,7 +156,7 @@ a:hover{
 main h1{
     margin: 0;
     font-size: 4em;
-    color: #F6E7CB;
+    color: #FFB238;
 }
 
 
@@ -163,28 +165,31 @@ main h1{
 /* section 2 styles */
 .second{
     /* add background here */
-    background-image: url(/images/aboutbg.png);
+    background-image: url(/images/section2-burger.jpg);
     background-size: cover;
+    margin-bottom: 8%;
+    background-repeat: no-repeat;
     
     
 }
 
 .secondSection{
-    margin: 0 22%;
-    padding: 5% 5%;
-    padding-left: 15%;
-    
+
+width: 40%;
+margin: 5% auto 5% 50%;
+padding-top: 5%;
+padding-bottom: 3%;
 }
 .secondSection h2{
     font-size: 4em;
-    
+    color: #FFB238;
     margin: 0;
 }
 .secondSection p{
     font-size: 125%;
 }
 .secondSection button{
-    margin: 0;
+    margin-left: 1%;
     height: 2em;
     
 
