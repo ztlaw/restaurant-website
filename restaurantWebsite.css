@@ -44,7 +44,7 @@ span{
 }
 
 body {
-background-image: url(foodBackground.webp);
+background-image: url(/images/foodBackground.webp);
 background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;
@@ -63,8 +63,9 @@ a{
 /* LAYOUT
 /*******************************************/
 main{
-    background-image: url(foodBackground2.png);
+    background-image: url(/images/section1-burger.jpg);
     background-repeat: no-repeat;
+    background-position: bottom;
     
     background-size: 100%;
     
@@ -73,36 +74,48 @@ main > img{
     float: left; 
     width: 10%;
 }
-.header {
+.header{
+    display: flex;
+    justify-content: space-between;
+padding-top: 2%;
+    margin: 2% 5% auto;
     
-    float: left;
-    width: 90%;
-    
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+
+    margin-right: 1%;
+    width: 40%;
 }
 .header li{
-    float: left;
-    list-style: none;
-    margin-left: 5%;
+    margin: auto 1%;
     
+  
 }
-.header ul{
-    margin-left: 55%;
-    text-decoration: none;
-    margin-bottom: 2%;
-    
+.header a{
+    color: lightgrey;
+    font-weight: 800;
 }
+a:hover{
+    color: black;
+}
+
 /* first section styles */
 .top{
-    margin-left: 10%;
-    width: 25%;
+    margin-left: 5%;
+    width: 30%;
     padding: 10% 0;
-    
-    
-
+    border: 1px solid black;
 }
+
+
 .top input{
     margin: 5% auto 5%;
-    background: url(search.png), white;
+    background: url(/images/search.png), white;
     background-size: 1em;
     background-repeat: no-repeat;
     background-position: left;
@@ -141,6 +154,7 @@ main > img{
 main h1{
     margin: 0;
     font-size: 4em;
+    color: #F6E7CB;
 }
 
 
@@ -149,7 +163,7 @@ main h1{
 /* section 2 styles */
 .second{
     /* add background here */
-    background-image: url(aboutbg.png);
+    background-image: url(/images/aboutbg.png);
     background-size: cover;
     
     
@@ -240,7 +254,7 @@ a img{
 .sectionFour{
     text-align: center;
     padding: 3% 0%;
-    background: url(coffee.jpg);
+    background: url(/images/coffee.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
