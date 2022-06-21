@@ -166,9 +166,10 @@ main h1{
 .second{
     /* add background here */
     background-image: url(/images/section2-burger.jpg);
-    background-size: cover;
+    background-size: center;
     margin-bottom: 8%;
     background-repeat: no-repeat;
+    background-position: 40% 80%;
     
     
 }
@@ -206,50 +207,54 @@ padding-bottom: 3%;
     padding: 2%;
     text-align: center;
     list-style: none;
-    height: 50%;
+   margin-bottom: 8%;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,222,222,1) 100%);
 }
 .sectionThree h1{
     font-size: 3em;
     margin: 0;
+    color: #FFB238;
 }
 
-.sectionThree ul{
+.sectionThree .meals{
     list-style: none;
     margin-top: 1%;
-    width: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
     
     
     
 }
-.sectionThree li{
-    display: inline;
-    padding: 0%;
+
+.sectionThree .meal a{
+    font-size: 1.25rem;
+    color: black;
 }
-.sectionThree .meal{
+
+.sectionThree .meal a:hover{
     text-decoration: underline;
-    padding: 0 5%;
-    font-size: 125%;
 }
-.sectionThree .foodPhotos{
-    float: left;
-    width: 25%;
-    text-align: center;
-}
+
 
 /* WORK ON THIS WORK ON THIS WORK ON THIS */
 .scroll{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 13%;
+   display: flex;
+   justify-content: space-between;
+   gap: 3%;
+   overflow-x: auto; /* [2] */
+   -webkit-overflow-scrolling: touch; /* [3] */
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+   list-style: none;
+} 
+
+/* .scroll li{
+    margin: auto 2%;
 }
-/* .foodPhotos{
-    position: absolute;
-}
-a img{
-    position: relative;
- } */
+
+
+
 
 .foodPhotos:hover{
     filter: contrast(0.2);
