@@ -116,11 +116,11 @@ a:hover{
 
 
 .top input{
-    margin: 5% auto 5%;
+    margin: 5% 1% 5%;
     background: url(/images/search.png), white;
     background-size: 1em;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 2%  50%;
     padding-left: 6%;
     object-fit: cover;
     outline: none;
@@ -256,7 +256,7 @@ padding-bottom: 3%;
 }
 /* section 4 styles */
 .s4-container{
-    border: 1px solid black;
+   
     width: 39%;
     margin: 5% 1%;
     display: flex;
@@ -276,6 +276,7 @@ padding-bottom: 3%;
 }
 .sectionFour h1{
     font-size: 3em;
+    color: #FFB238;
 }
 .sectionFour .fa-solid{
     padding: 0.5em;
@@ -325,6 +326,7 @@ padding-bottom: 3%;
 .testimonials h1{
     font-size: 3em;
     margin: 1% auto 4%;
+    color: #FFB238;
 }
 
 .testimonials h4{
@@ -338,6 +340,13 @@ padding-bottom: 3%;
 }
 .testimonials span{
     display: block;
+}
+.star{
+display: inline-block;
+object-fit: scale-down;
+
+padding: 0;
+margin: 0;
 }
 footer {
 
