@@ -258,16 +258,17 @@ padding-bottom: 3%;
 .s4-container{
     border: 1px solid black;
     width: 39%;
-    margin-left: 1%;
+    margin: 5% 1%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
 }
 
 .sectionFour{
     text-align: center;
-    margin-bottom: 8%;
-    height: 500px;
+    margin-bottom: 5%;
+    
     background: url(/images/section4-burger.jpg);
     background-position: center;
     background-repeat: no-repeat;
