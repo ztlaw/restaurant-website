@@ -177,9 +177,10 @@ main h1{
 .secondSection{
 
 width: 40%;
-margin: 5% auto 5% 50%;
+margin: 5% auto 5% 56%;
 padding-top: 5%;
 padding-bottom: 3%;
+
 }
 .secondSection h2{
     font-size: 4em;
@@ -319,8 +320,8 @@ padding-bottom: 3%;
     text-align: center;
     padding: 3% 20%;
     margin-bottom: 2%;
-    background: rgb(224,222,222);
-    background: linear-gradient(90deg, rgba(224,222,222,1) 0%, rgba(255,255,255,1) 64%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,220,157,1) 58%); 
    
 }
 .testimonials h1{
@@ -355,3 +356,23 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+    .card {
+      flex: 0 0 auto;
+    
+  }
+
+  .scrolling-wrapper-flexbox{
+    /* border: 1px solid black; */
+  }
+
+  .card{
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: 2% 3%;
+  }
