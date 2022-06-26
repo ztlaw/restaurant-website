@@ -1,1 +1,1 @@
-# restaurant-website
+This is an example of a static website created for a client who owns a restaurant. 
